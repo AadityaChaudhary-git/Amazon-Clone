@@ -5,7 +5,7 @@
 
 This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project replicates the basic structure and design of Amazon's homepage, providing a user-friendly e-commerce interface. It aims to demonstrate web development skills with static design elements like product listings, a navigation bar, and a footer.
 
-[image alt]( )
+[image alt](https://github.com/AadityaChaudhary-git/Amazon-Clone/blob/f39d67987d60dfb1c05b6828479ae555c455db31/Screenshot%202025-05-07%20213649.png)
 [image alt](https://github.com/AadityaChaudhary-git/Amazon-Clone/blob/45e0c05791e0cc90a41ccbd1d41bd834695a777a/Screenshot%202025-05-07%20213707.png)
 [image alt](https://github.com/AadityaChaudhary-git/Amazon-Clone/blob/78b7d701f36b513483f1938000e4b4755248d0f8/Screenshot%202025-05-07%20213729.png)
 ## Features
