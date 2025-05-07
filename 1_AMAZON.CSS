@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* boder-box is used to set the margin  and padding in the content area */
+
+}
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+     display: flex;  /*used to arrange every thing horizontally in the navbar */
+align-items: center;
+justify-content: space-evenly; /* to make the distance between the box equal  */
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+.border{  
+    /* to create a broder  */
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    /* to make the border visible when we hover on it  */
+    border: 1.5px solid white;
+}
+
+/* BOX 2  */
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;  /* using rem to make it more responsive so that it can adjust acc to the navbar size */
+margin-left: 15px;   /* to display the text aside of the location icon  */
+}
+
+.add-sec{
+font-size: 1rem;
+margin-left: 3px;
+}
+
+.add-icon{
+    /* to get india and location icon at the same line  */
+    display: flex;
+    align-items: center;
+}
+
+/* BOX 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;  /* used to make the edges curved */
+}
+.nav-search:hover{
+    border:2px solid  orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;    /* to remove the bydefault border*/
+}
+.search-input{
+width: 100%;     /* it will take all the remaning area and make it easy to set the width  */
+font-size: 1rem;
+border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex; 
+    justify-content: center;/* horizontally  */
+   align-items: center;/* vertically */
+   font-size: 1.2rem; 
+   background-color: #febd68;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: #0f1111;/* color of the icon  */
+
+}
+
+
+/* BOX 4 */
+
+span{
+    font-size: 0.75rem;
+}
+.nav-sec{
+    font-size: 0.9rem;
+font-weight: 800px; /* use to make it darker and bolder */
+
+}
+
+/* BOX 5 */
+
+.nav-cart{
+display: flex;
+   font-size: 0.85rem;
+   font-weight: 700px;
+}
+.nav-cart i{ 
+    /* only to make changes in the icon  */
+    font-size: 35px;
+}
+
+
+
+/* PANEL */
+
+.panel{
+height: 40px;
+background-color: #222f3d;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+} 
+
+.panel-opt p{
+    display: inline;
+    margin-left:15px  ;
+}
+
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+
+font-weight: 700px;}
+
+/* HERO SECTION  */
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;/* to take only space needed and to make it move  */
+justify-content: center;
+align-items: flex-end;/* to bring it at the same position as it is given in the real web site      */
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 0.85rem;
+width: 80%;
+margin-bottom: 25px;/* to get it little above from the bottom  */
+
+}
+
+.hero-message a{
+    color: #007185;
+}
+
+/* SHOP SECTION  */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;/* only four box will appear at a row  */
+   justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+
+.box{
+    /* border: 2px solid black ; */
+    height: 400px;
+    width: 23%; 
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:15px ;
+}
+
+.box-image{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size:cover ;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a{
+    color:#007185 ;
+}
+
+/* FOOTER  */
+.footer{
+    margin-top:15px ;
+}
+
+/* PANEL1*/
+
+.foot-panel1{
+background-color: #37475a;
+height: 50px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+display: flex;
+justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    font-size: 0.85rems;
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+/* FOOT PANEL3  */
+.foot-panel3{
+background-color: #222f3d;
+color: white;
+border-top:0.5px solid white ;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+/* FOOT PANEL4  */
+.foot-panel4{
+    color: white;
+    background-color: #0f1111;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+.pages{
+
+padding-top: 25px;
+
+}
+
+.copy-right{
+    padding-top: 5px;
+    
+}
