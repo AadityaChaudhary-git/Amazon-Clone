@@ -1,2 +1,24 @@
-# Amazon-Clone
-Html ,Css
+
+# Amazon Clone
+
+## Project Description
+
+This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project replicates the basic structure and design of Amazon's homepage, providing a user-friendly e-commerce interface. It aims to demonstrate web development skills with static design elements like product listings, a navigation bar, and a footer.
+
+## Features
+
+- **Homepage Layout**: A clean and modern layout resembling the Amazon homepage.
+- **Product Listings**: A section that displays products with images, prices, and product details.
+- **Navigation Bar**: Includes links to categories, search bar, and login/signup.
+- **Responsive Design**: The layout adjusts to different screen sizes, ensuring compatibility with both desktop and mobile devices.
+
+## Technologies Used
+
+- **HTML**: Provides the structure for the webpage.
+- **CSS**: Used for styling and layout of the page.
+
+## Installation
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/amazon-clone.git
