@@ -5,6 +5,9 @@
 
 This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project replicates the basic structure and design of Amazon's homepage, providing a user-friendly e-commerce interface. It aims to demonstrate web development skills with static design elements like product listings, a navigation bar, and a footer.
 
+[image alt]( )
+[image alt]( )
+[image alt]( )
 ## Features
 
 - **Homepage Layout**: A clean and modern layout resembling the Amazon homepage.
