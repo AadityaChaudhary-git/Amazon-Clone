@@ -7,7 +7,7 @@ This is a simple **Amazon Clone** built using **HTML** and **CSS**. The project 
 
 [image alt]( )
 [image alt]( )
-[image alt]( )
+[image alt](https://github.com/AadityaChaudhary-git/Amazon-Clone/blob/78b7d701f36b513483f1938000e4b4755248d0f8/Screenshot%202025-05-07%20213729.png)
 ## Features
 
 - **Homepage Layout**: A clean and modern layout resembling the Amazon homepage.
